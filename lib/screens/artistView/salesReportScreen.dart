@@ -152,8 +152,8 @@ Widget _buildTopCustomersList(List<TopCustomer> customers) {
       final customer = customers[index];
       final profilePicUrl = customer.profilePictureUrl != null
           ? customer.profilePictureUrl!.replaceFirst(
-              'http://192.168.145.221:8000/api/artist/sales-report',
-              'http://192.168.145.221:8000'
+              'http://YOUR_BACKEND_IP:8000/api/artist/sales-report',
+              'http://YOUR_BACKEND_IP:8000'
             )
           : null;
 
