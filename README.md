@@ -95,14 +95,4 @@ All rights reserved © 2025 Jahanara Hizzath.
 
 ---
 
-### **What to do next**
-1. **Create a file** called `README.md` in your Flutter project root folder.
-2. Paste the above content into it.
-3. Save, then run:
-```bash
-git add README.md
-git commit -m "Add project README"
-git push
-```
-
 
