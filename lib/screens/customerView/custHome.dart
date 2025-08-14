@@ -31,7 +31,7 @@ class _CustomerHomeState extends State<CustomerHome> {
   List<String> selectedSubcategories = [];
   String searchQuery = "";
   bool initialLoadComplete = false;
-  final String baseUrl = 'http://192.168.145.221:8000';
+  final String baseUrl = 'http://YOUR_BACKEND_IP:8000';
   final TextEditingController _searchController = TextEditingController();
   Timer? _searchDebounce;
 
