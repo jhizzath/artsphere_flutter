@@ -1,4 +1,4 @@
 
 class AppConstants {
-  static const String baseUrl = "http://192.168.145.221:8000";
+  static const String baseUrl = "http://YOUR_BACKEND_IP:8000";
 }
