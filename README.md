@@ -1,6 +1,6 @@
 # 🎨 ArtSphere - Final Year Project
 
-ArtSphere is a cross-platform Flutter application that connects artists and customers, allowing artists to showcase and sell their artworks, while customers can explore, purchase, and follow their favorite artists.  
+ArtSphere is a cross-platform Flutter application that connects artists and customers, allowing artists to showcase and sell their artworks, while customers can explore, purchase, and watch videos of artworks.  
 The backend is powered by **Django** with **MySQL** as the database.
 
 ---
