@@ -152,7 +152,7 @@ class OrderHistoryScreen extends StatelessWidget {
           // Image
           item.imageUrl.isNotEmpty
               ? Image.network(
-                  'http://192.168.145.221:8000${item.imageUrl}',
+                  'http://YOUR_BACKEND_IP:8000${item.imageUrl}',
                   width: 60,
                   height: 60,
                   fit: BoxFit.cover,
