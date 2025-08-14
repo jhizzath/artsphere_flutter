@@ -55,7 +55,7 @@ class EditProfileController extends GetxController {
         existingProfile!.profilePicture!.isNotEmpty) {
       String url = existingProfile!.profilePicture!;
       if (!url.startsWith('http')) {
-        url = 'http://192.168.145.221:8000${url.startsWith('/') ? '' : '/'}$url';
+        url = 'http://YOUR_BACKEND_IP:8000${url.startsWith('/') ? '' : '/'}$url';
       }
       return url;
     }
