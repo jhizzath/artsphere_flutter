@@ -111,7 +111,7 @@ class _CustomerProfileScreenState extends State<CustomerProfileScreen> {
                       : (profile.profilePicture != null &&
                                   profile.profilePicture!.isNotEmpty
                               ? NetworkImage(
-                                'http://192.168.145.221:8000/${profile.profilePicture!}',
+                                'http://YOUR_BACKEND_IP:8000/${profile.profilePicture!}',
                               )
                               : AssetImage('assets/images/avatar.png'))
                           as ImageProvider,
