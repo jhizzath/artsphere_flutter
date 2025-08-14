@@ -31,7 +31,7 @@ class _VideoDetailPageState extends State<VideoDetailPage> {
   Future<void> _initializeVideoPlayer() async {
     try {
       _playerController = VideoPlayerController.network(
-          'http://192.168.145.221:8000/${widget.video.videoFile}')
+          'http://YOUR_BACKEND_IP:8000/${widget.video.videoFile}')
         ..addListener(() {
           if (_playerController.value.isPlaying != _isPlaying) {
             setState(() {
