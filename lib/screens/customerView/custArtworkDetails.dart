@@ -20,7 +20,7 @@ class ArtworkDetailsPage extends StatefulWidget {
 
 class _ArtworkDetailsPageState extends State<ArtworkDetailsPage> {
   int quantity = 1;
-  final String baseUrl = 'http://192.168.145.221:8000';
+  final String baseUrl = 'http://YOUR_BACKEND_IP:8000';
   final RxBool isFavorited = false.obs;
   int _currentImageIndex = 0;
   final CartController cartController = Get.find<CartController>();
